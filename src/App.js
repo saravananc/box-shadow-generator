@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Slider, Input, Row, Col, Typography } from "antd";
+import { Slider, Input, Row, Col, Typography, Flex } from "antd";
 
 const { Text } = Typography;
 
@@ -22,7 +22,7 @@ const App = () => {
 
   return (
     <div style={{ padding: 20 }}>
-      <h1>Box Shadow Generator</h1>
+      <h3 className="h1tag" style={{textAlign:"center"}}>Box Shadow Generator</h3>
       <Row gutter={16}>
         <Col span={12}>
           <label>Horizontal Offset</label>
@@ -85,6 +85,7 @@ const App = () => {
         <Text copyable>{boxShadowCss}</Text>
       </div>
       <hr/>
+      <Flex justify="flex-end">Created by &nbsp;&nbsp; <a href="https://github.com/saravananc"> Saravanan.C</a></Flex>
     </div>
   );
 };

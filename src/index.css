@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.h1tag{
+background: linear-gradient(to left, #7773CF 0%, #CF4416 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+}
